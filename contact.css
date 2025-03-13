@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;	
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+     background-color:#fcc200;
+	 padding:1vw;
+	 font-family: Optima;
+	 font-size:1.6rem;
+	 color:white;
+	 font-family:Sans-serif;
+
+	 
+	 
+}
+.photo {
+     margin-top:0.2w;
+     margin-right:0.2vw;
+	 margin-bottom:0.2vw;
+	 border-radius: 50%;
+	
+}
+.photo2 {
+     float:right;
+	 Margin-top:1.4vw;
+}
+
+
+
+
+.navigation {
+  list-style-type: none;
+  margin: 0vw;
+  padding: 0.1vw;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0vw;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+li {
+  float: right;
+  font-family:Sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  border-radius: 5%;
+}
+.active {
+  background-color: #04AA6D;
+  border-radius: 5%;
+  font-family:Sans-serif;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+ 
+.container4 {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button {
+    background-color: #ff6f00;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #ff872a;
+}
+.contact-info {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.contact-info p {
+     margin: 5px 0;
+}
+.contact-info a {
+    color: #ff6f00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+.header {
+   padding:9px;
+   font-size:20px;
+}
+.photo {
+   height:45px;
+   wider:42x;
+}
+.navigation {
+  margin: 0px;
+  padding: 0px;
+ 
+}
+.container4 {
+    padding: 15px;
+}
+input, textarea {
+    font-size: 14px;
+}
+button {
+    font-size: 14px;
+}
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 10px;
+}
+        }

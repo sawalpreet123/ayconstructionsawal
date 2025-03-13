@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;	
+}
+.header {
+     background-color:#fcc200;
+	 padding:1vw;
+	 font-family: Optima;
+	 font-size:1.6rem;
+	 color:white;
+	 font-family:Sans-serif;
+
+	 
+	 
+}
+.photo {
+     margin-top:0.2w;
+     margin-right:0.2vw;
+	 margin-bottom:0.2vw;
+	 border-radius: 50%;
+	
+}
+.photo2 {
+     float:right;
+	 Margin-top:1.4vw;
+}
+
+
+
+
+.navigation {
+  list-style-type: none;
+  margin: 0vw;
+  padding: 0.1vw;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0vw;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.nav-li {
+  float: right;
+  font-family:Sans-serif;
+}
+
+.nav-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-li a:hover:not(.active) {
+  background-color: #111;
+  border-radius: 5%;
+}
+.active {
+  background-color: #04AA6D;
+  border-radius: 5%;
+  font-family:Sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.containerul {
+    list-style: none;
+    padding: 0;
+}
+
+.containerul li {
+    background: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px){
+
+.header {
+	 padding:9px;
+	 font-size:20px;
+}
+.photo {
+   height:45px;
+   wider:42x;
+}
+.navigation {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+
+.container1 {
+    max-width: 350px;
+}
+.contact {
+    font-size: 15px;
+}
+
+}

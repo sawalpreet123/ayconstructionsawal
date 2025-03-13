@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+</head>
+<script src="index.js"></script>
+<body>
+
+<DIV class="header" id="home">
+   <DIV >
+     <img class="photo" src="C:\Users\sawal\Desktop\New folder\Screenshot 2025-03-07 182804.png" height="55px" width="55px"> <b>AY constuction ltd</B>  
+	 <button class="admin-login" id="toggleAdminLogin"><img class="photo2" src="C:\Users\sawal\Desktop\New folder\10486773.png" height="30vw" width="30vw">
+     </button>
+   </div>
+</div>
+
+<div class="nav">
+  <ul class="navigation">
+     <li><a href="about.html">About us </a></li>
+     <li><a href="contact.html">Contact</a></li>
+     <li><a href="Services.html">Services</a></li>
+     <li><a class="active" href="#home">Home</a></li>
+  </ul>
+ </div>
+ <center>
+ <div class="container5"> 
+  <div id="adminLogin" style="display: none;">
+            <input type="text" id="adminUsername" placeholder="Admin Username">
+            <input type="password" id="adminPassword" placeholder="Password">
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn" style="display: none;">Logout</button>
+    </div>
+</div> </center>
+<div class="bannor">
+   <img class="bannorimg" src="C:\Users\sawal\Desktop\New folder\pexels-rezwan-1216544.jpg" height="auto" width="100%">
+   <div class="bannortext"><b>Turning Ideas Into Iconic Structures</b></div>
+   <div class="bannortext2">Your Trusted Partner in Construction</div>
+   <a href="contact.html" class="cta-button">Get in Touch</a>
+</div>
+
+<section id="about" class="about">
+        <div class="abouttext">
+            <h2>About Us</h2>
+            <p>We are a leading construction company with years of experience in building residential, commercial, and industrial spaces. We combine innovation with quality to provide the best solutions for our clients.</p>
+        </div>
+</section>
+
+<section class="services">
+        <div class="container">
+            <h2>some our works</h2>
+            <div class="service-item">
+                <h3>Kitchen</h3>
+				 <a href="kitchen.html">
+                <img src="C:\Users\sawal\Desktop\New folder\WhatsApp Image 2025-03-08 at 19.10.31_2edb16e8.jpg" height="auto" width="300">
+				</a>
+            </div>
+            <div class="service-item">
+                <h3>Garden Decoration</h3>
+                <a href="Garden.html">
+                <img src="C:\Users\sawal\Desktop\New folder\WhatsApp Image 2025-03-08 at 19.10.32_30e2567f.jpg" height="auto" width="300">
+				</a>
+            </div>
+            <div class="service-item">
+                <h3>Washroom</h3>
+                 <a href="Washroom.html">
+                <img src="C:\Users\sawal\Desktop\New folder\WhatsApp Image 2025-03-08 at 19.10.33_21072a91.jpg" height="auto" width="300">
+				</a>
+            </div>
+			<br>
+			 <div class="service-item">
+                <h3>Plumbing</h3>
+                 <a href="plumbing.html">
+                <img src="C:\Users\sawal\Desktop\New folder\WhatsApp Image 2025-03-08 at 19.10.32_70618bd7.jpg" height="auto" width="300">
+				</a>
+            </div>
+		
+        </div>
+</section>
+<div class="ser-but">
+<center> 
+<p class="ser-p">Here have a look at the services that we provide</p>
+<a href="Services.html" class="services-button">Services</a>
+</center>
+</div>
+<section id="reviews" class="reviews">
+<center>
+    <div class="container5">
+        <h2>Customer Reviews</h2>
+      
+  
+        <form id="reviewForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="review" placeholder="Write your review here..." required></textarea>
+            <div class="rating">
+                <span class="star" data-value="5">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="1">★</span>
+            </div>
+            <input type="hidden" id="rating" value="0">
+            <button class="rev-submit-but" type="submit">Submit Review</button>
+        </form>
+        <div id="reviewsList"></div>
+    </div>
+</center>
+</section>
+
+<footer id="contact">
+        <div class="container">
+            <p>&copy; 2025 Building Futures Construction. All rights reserved.</p>
+            <p>Email: ayconstructionsolutions@gmail.com | Phone:   07511 078 415,  07307 886 042</p>
+        </div>
+		 
+</footer>
+</body>
+</html>
